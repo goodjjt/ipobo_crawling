@@ -28,4 +28,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/hellodocker:${{github.ref_name }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/ipobo_crawling:${{github.ref_name }}
