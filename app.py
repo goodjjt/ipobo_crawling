@@ -44,7 +44,6 @@ def crawling():
         print("message : ", message)
         if cnt > 0:
             bot.sendMessage(chat_id=telegram_id, text=message)
-            # bot_sst.sendMessage(chat_id=telegram_id_sst, text=message)
     else :
         print(response.status_code)
 
