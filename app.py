@@ -9,7 +9,7 @@ telegram_token = "5128692345:AAHkO-3JZ9tZYP2hrS5UAlnYCrO0PiO09_A"
 telegram_id = "444879086"
 bot = telegram.Bot(token = telegram_token)
 
-# https 처리
+# https 처리 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 url = 'https://mirihae.com/camping/selectAjaxDatePinInfo.do'
